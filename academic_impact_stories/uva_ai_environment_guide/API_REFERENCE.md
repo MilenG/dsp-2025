@@ -13,8 +13,14 @@ Replace the standard OpenAI base URL with uva endpoint:
 ```
 https://ai-research-proxy.azurewebsites.net/v1
 ```
+## 3. Available models
 
-## Installation
+To see which models are available to you, you can run 
+```bash
+curl https://ai-research-proxy.azurewebsites.net/v1/models \-H "Authorization: Bearer replace-with-your-apikeys"
+```
+
+### OpenAI Python SDK
 
 Install the OpenAI Python SDK:
 
